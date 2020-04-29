@@ -1,5 +1,5 @@
 
-## beginner-calculators (vanilla js calculators | assignment)
+## ASSIGNEMENT (vanilla js calculators | parseInt)
 
 _Exercise 26 April 2020
  
