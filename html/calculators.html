@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/calculators.css" />
+
+    <title>Calculators</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">
+        <a href="../index.html" target="_parent">CALC</a>
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="#" target="_parent">A</a></li>
+          <li><a href="../html/calculatorTwo.html" target="_parent">B</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- --------------------------------------- -->
+    <!-- --------------------------------------- -->
+    <!-- --------------------------------------- -->
+    <section id="calculators">
+      <div class="container-boxes">
+        <div id="boxes">
+          <input type="text" name="num1" id="val1" />
+          <!---------->
+          <span id="plus">+</span>
+          <!---------->
+          <input type="text" name="num2" id="val2" />
+          <!---------->
+          <span>=</span>
+          <!---------->
+          <input type="text" name="sum" readonly id="valResult1" />
+          <!-- --------------------->
+          <!-- ------------------ -->
+          <button type="button" onclick="calcOne()">Calculate</button>
+          <!-- --------------------->
+        </div>
+
+        <!-- ------------------ -->
+        <div id="boxes">
+          <input type="text" name="num3" id="val3" />
+          <!---------->
+          <span id="minus">-</span>
+          <!---------->
+          <input type="text" name="num4" id="val4" />
+          <!---------->
+          <span>=</span>
+          <!---------->
+          <input type="text" name="minus" readonly id="valResult2" />
+          <!-- --------------------->
+          <!-- ------------------ -->
+          <button type="button" onclick="calcTwo()">Calculate</button>
+        </div>
+
+        <!-- --------------------->
+        <!-- ------------------ -->
+        <!--  -------------------------->
+        <div id="boxes">
+          <input type="text" name="num5" id="val5" />
+          <!---------->
+          <span id="multiply">*</span>
+          <!---------->
+          <input type="text" name="num6" id="val6" />
+          <!---------->
+          <span>=</span>
+          <!---------->
+          <input type="text" name="multiply" readonly id="valResult3" />
+          <!-- --------------------->
+          <!-- ------------------ -->
+          <button type="button" onclick="calcThird()">Calculate</button>
+        </div>
+
+        <!-- --------------------->
+        <!-- ------------------ -->
+        <div id="boxes">
+          <input type="text" name="num7" id="val7" />
+          <!-- ----- -->
+          <span id="division">/</span>
+          <!-- ----- -->
+          <input type="text" name="num8" id="val8" />
+          <span>=</span>
+
+          <input type="text" name="multiply" readonly id="valResult4" />
+          <!-- --------------------->
+          <!-- ------------------ -->
+
+          <button type="button" onclick="calcFourth()">Calculate</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------->
+    <!-- ------------------ -->
+    <!-- --------------------->
+    <!-- ------------------ -->
+  </body>
+  <script src="../scripts/calcOne.js"></script>
+</html>

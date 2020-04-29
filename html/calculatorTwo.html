@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/calculatorTwo.css" />
+
+    <title>Calculator Two</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">
+        <a href="../index.html" target="_parent">CALC</a>
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="../html/calculators.html" target="_parent">A</a></li>
+          <li><a href="#" target="_parent">B</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- --------------------------------------- -->
+    <!-- --------------------------------------- -->
+    <!-- --------------------------------------- -->
+    <section id="calculators">
+      <div class="bottomOne">
+        <form>
+          Value 1: <input type="text" id="value1" />
+
+          Value 2: <input type="text" id="value2" />
+
+          Operator:
+          <select id="operator">
+            <option value="add">add</option>
+            <option value="min">Minus</option>
+            <option value="div">Divide</option>
+            <option value="mul">Multiply</option>
+          </select>
+
+          <button type="button" onclick="calc()">Calculate</button>
+          <div id="result"></div>
+        </form>
+      </div>
+    </section>
+  </body>
+  <!-- --------------------->
+  <!-- ------------------ -->
+  <!-- --------------------->
+  <!-- ------------------ -->
+  <script src="../scripts/calcTwo.js"></script>
+</html>
